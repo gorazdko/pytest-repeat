@@ -9,7 +9,7 @@ import pytest
 
 def pytest_addoption(parser):
     parser.addoption(
-        '--count',
+        '--countn',
         action='store',
         default=1,
         type=int,
